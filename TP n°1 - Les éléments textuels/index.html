@@ -52,10 +52,9 @@
         <p>Non.</p>
 
         <h3>Pourquoi?</h3>
-        <p>On ne peut pas intégrer un nouveau <strong>titre principal </strong> H1 car on se trouve déjà sous un <strong>titre de 
-            niveau inférieur</strong> H2.<br>
-            De plus, d'un point de vue <strong>sémantique</strong> on a pas le droit d'inclure <strong>2 titres de niveau 
-            (H1)</strong> dans une <strong>même page</strong>.</p>
+        <p>On ne peut pas intégrer un nouveau <strong>titre principal</strong> H1 car ce n'est pas correct d'un point de vue 
+            <strong>sémantique et accessibilité</strong>.<br>
+            De plus, on a pas le droit d'inclure <strong>2 titres de niveau (H1)</strong> dans une <strong>même page</strong>.</p>
             <hr>
 
         <h2>Démo - Éléments textuels avancés</h2>
@@ -77,20 +76,52 @@
 
         <h3>Arborescence du site</h3>
         <ul>
-            <li><h4 id="Titre_1">Titre de page</h4>
-                <ul><li><h5 id="Titre_2">Section n°01</h5>
-                    <ul><li><h6 id="Titre_3-1">Paragraphe n°01</h6></li>
-                    <li><h6 id="Titre_3-2">Paragraphe n°02</h6></li></ul></li>
-                <li><h5>Section n°02</h5>
-                    <ul><li><h6>Paragraphe n°01</h6></li>
-                    <li><h6>Paragraphe n°02</h6></ul></ul>
+            <li>
+                <h4 id="Titre_1">Titre de page</h4>
+                <ul>
+                    <li>
+                        <h5 id="Titre_2">Section n°01</h5>
+                        <ul>
+                            <li>
+                                <h6 id="Titre_3-1">Paragraphe n°01</h6>
+                            </li>
+                            <li>
+                            <h6 id="Titre_3-2">Paragraphe n°02</h6>
+                            </li>
+                        </ul>
+                    </li>
+                <li>
+                    <h5>Section n°02</h5>
+                    <ul>
+                        <li>
+                            <h6>Paragraphe n°01</h6>
+                        </li>
+                        <li>
+                            <h6>Paragraphe n°02</h6>
+                        </li>
+                    </ul>
+                </li>
+                </ul>
+            </li>
         </ul>
 
         <ul>
-            <li><h4><a href="#Titre_1" title="Redirection vers Titre 1">Titre de page</a></h4>
-                <ul><li><h5><a href="#Titre_2" title="Redirection vers Titre 2">Section n°01</a></h5>
-                    <ul><li><h6><a href="#Titre_3-1" title="Redirection vers Titre 3-1">Paragraphe n°01</a></h6></li>
-                    <li><h6><a href="#Titre_3-2" title="Redirection vers Titre 3-2">Paragraphe n°02</a></h6></li></ul></ul></li>
+            <li>
+                <h4><a href="#Titre_1" title="Redirection vers Titre 1">Titre de page</a></h4>
+                <ul>
+                    <li>
+                        <h5><a href="#Titre_2" title="Redirection vers Titre 2">Section n°01</a></h5>
+                        <ul>
+                            <li>
+                                <h6><a href="#Titre_3-1" title="Redirection vers Titre 3-1">Paragraphe n°01</a></h6>
+                            </li>
+                            <li>
+                                <h6><a href="#Titre_3-2" title="Redirection vers Titre 3-2">Paragraphe n°02</a></h6>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
 
         <p><a href="#top" title="Redirection vers l'index">Accueil</a> &#160; 
